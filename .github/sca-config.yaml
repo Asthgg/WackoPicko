@@ -1,0 +1,7 @@
+language: EN
+strict: false
+sca:
+  include:
+    - .
+  exclude:
+    - glob(**/vendor/)

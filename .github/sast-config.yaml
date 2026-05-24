@@ -1,0 +1,8 @@
+language: EN
+strict: false
+sast:
+  include:
+    - .
+  exclude:
+    - glob(**/node_modules/)
+    - glob(**/vendor/)
